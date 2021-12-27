@@ -1,8 +1,8 @@
  
 body {
-    background: url(fire.png) center 30%/18% no-repeat fixed, 
-    url(blossom.jpg) center center/cover no-repeat fixed,
-    url(pattern.png);
+    background: url(fire.png) center 30%/18% no-repeat fixed,
+    url(pattern.png), 
+    url(blossom.jpg) center center/cover no-repeat fixed;
 }
 h1 {
     font-size: 20px;
