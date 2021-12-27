@@ -1,0 +1,44 @@
+h1 {
+    font-family: 'Saira Stencil One', cursive;
+    color: orange;
+    font-size: 70px;
+    text-align: center;
+    text-shadow: 5px 5px 8px #333;
+}
+
+h2 {
+    font-family: 'Dancing Script', cursive;
+    font-size: 30px;
+    color: green;
+    text-decoration: underline wavy #800;
+    }
+
+h3 {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    text-transform: uppercase;
+    }
+
+h4 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    font-variant: small-caps;
+    font-style: italic;
+    text-align: right;
+}
+
+p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    text-align: justify;
+    line-height: 140%;
+        }
+
+.fas {      /*ovo je za SVE ikonice s font awesomea*/
+color: red;
+}
+
+.fa-sun {    /*ovo je za ikonice s font awesomea s ovim nazivom*/
+    color: blue;
+}
+     
