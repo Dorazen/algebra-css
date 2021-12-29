@@ -1,0 +1,10 @@
+img {
+    border: 2px solid black;
+    display: block;
+    width: 25%;
+    height: 25%;
+    padding: 20px;
+    margin-left: 30em;
+    margin-top: 2em;
+}
+
