@@ -1,7 +1,7 @@
-@import "_mixins.scss";
-@import "_colors.scss";
-@import "_reset.scss";
-
+@import "mixins";
+@import "colors";   
+@import "reset";
+// import ide bez donje crtice. ako se nalaze u drugim folderima onda treba i folder ubaciti @import "boje/colors"
 
 .wrapper {
     display: flex;
@@ -37,13 +37,13 @@ body {
 
 @keyframes animacija {
     0% {
-
+top: -80vh;
     }
    100% {
-transform: translateY(300px)
+top:
    }
 }
 
 .flex-item {
-    animation: animacija 1.5s ease-in 1.5s;
+    animation: animacija  1.5s ease-in-out 3s;
 } 
