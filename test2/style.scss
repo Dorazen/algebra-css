@@ -1,0 +1,49 @@
+@import "_mixins.scss";
+@import "_colors.scss";
+@import "_reset.scss";
+
+
+.wrapper {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+body {
+    background: url(blur.jpg) no-repeat fixed;
+    background-size: cover;
+}
+
+.flex-item:nth-of-type(1) {
+    @include pravokutnik;
+    @include obrub;
+    background: $whiteC;
+}
+
+.flex-item:nth-of-type(2) {
+    @include pravokutnik;
+    @include obrub;
+    background: $redS; 
+}
+
+.flex-item:nth-of-type(3) {
+    @include pravokutnik;
+    @include obrub;
+    background: $yellowS;
+}
+
+@keyframes animacija {
+    0% {
+
+    }
+   100% {
+transform: translateY(300px)
+   }
+}
+
+.flex-item {
+    animation: animacija 1.5s ease-in 1.5s;
+} 

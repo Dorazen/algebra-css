@@ -1,0 +1,13 @@
+@mixin obrub {
+    border: 2px solid white;
+    height: 300px;
+    width: 300px;
+}
+
+@mixin pravokutnik {
+    font-size:1000%;
+    font-weight: bolder;
+    color: white;
+    text-align: center;
+    line-height: 300px;
+}
